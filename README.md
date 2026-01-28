@@ -36,7 +36,7 @@ pip install -r requirements.txt
 
 Levantar la API:
 
-uvicorn app.main:app --reload
+uvicorn main:app --reload
 
 
 

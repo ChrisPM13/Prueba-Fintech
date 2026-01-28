@@ -5,7 +5,12 @@ from app.routes import applications, score, documents
 # Crear tablas en la base de datos
 Base.metadata.create_all(bind=engine)
 
-app = FastAPI(title="Fintech Credit API", summary="API para gestión de solicitudes de crédito")
+app = FastAPI(
+    title="Fintech Credit API",
+    summary="API para gestión de solicitudes de crédito",
+    docs_url="/",        
+    redoc_url="/redoc"   
+)
 
 # Registrar rutas
 
