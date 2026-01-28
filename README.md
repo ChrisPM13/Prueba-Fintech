@@ -219,6 +219,8 @@ Cambiar a una base datos robusta
 Autenticación de usuarios
 
 
+#### Diagramas de Diseño:
 
+https://docs.google.com/document/d/1VWSdwTw6Nqvce_mcX8ioX11CwTqmqGEvjJahSTHilC4/edit?usp=sharing
 
 
